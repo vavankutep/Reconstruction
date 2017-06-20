@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href="style.css" type="text/css" rel="stylesheet" media="all">
+	<title>Будівництво та ремонт Київ</title>
+	<!-- Use the ID of your slider here to avoid the flash of unstyled content -->
+		  	<style type="text/css">
+		  		#featured { width: 940; height: 450px; background: #009cff url('orbit/loading.gif') no-repeat center center; overflow: hidden; }
+		  		/* Want a different Loading GIF - visit http://www.webscriptlab.com/ - that's where we go this one :) */
+		  	</style>
+
+			<!-- Attach our CSS -->
+		  	<link rel="stylesheet" href="orbit.css">
+
+			<!--[if IE]>
+				<style type="text/css">
+					.timer { display: none !important; }
+					div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
+				</style>
+			<![endif]-->
+
+			<!-- Attach necessary scripts -->
+			<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+			<script type="text/javascript" src="scripts/jquery.orbit.min.js"></script>
+
+			<!-- Run the plugin -->
+			<script type="text/javascript">
+(function($) { // довелось загорнути у фукцію, бо виникала помилка .orbit is not a function
+				$(window).load(function() {
+					$('#featured').orbit({
+						'bullets': true,
+						'timer' : true,
+						'animation' : 'horizontal-slide'
+					});
+				});
+	})(window.jQuery);
+			</script>
+
+<!-- Плагін галереї-->
+	<link rel="stylesheet" type="text/css" href="./scripts/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript" src="./scripts/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="./scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("a.photo").fancybox({
+			transitionIn: 'elastic',
+			transitionOut: 'elastic',
+			speedIn: 500,
+			speedOut: 500,
+			hideOnOverlayClick: false,
+			titlePosition: 'over'
+		});
+	});
+	</script>
+</header>
+<body>
+	<div id="header">
+		<div class="head_top">
+			<div class="head_top__right">Якісно. Надійно.  Доступно
+			</div>
+			<div class="head_top__left">
+	<ul>
+		<li><a href=about_us.html>Про нас<a></li>
+		<li><a href=price.html>Прайс-лист</a></li>
+		<li><a href=contact_us.html>Зв'язатись з нами</a></li>
+	</ul>
+		 </div>
+		</div>
+			<div class="header_main">
+	<div class= "header">
+	    <div class="header__logo"> <img src="http://construction-pro.cmsmasters.net/wp-content/themes/construction-pro/img/logo.png" alt="Construction PRO"></div>
+			<div class="header__phone"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
+				</div>
+	 <div class="header__phone-number">
+	 		<h3>Контактний телефон</h3><h4>0938499576</h4>
+	    	</div>
+	<div class="header__calendar">
+	      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.848 12.459c.202.038.202.333.001.372-1.907.361-6.045 1.111-6.547 1.111-.719 0-1.301-.582-1.301-1.301 0-.512.77-5.447 1.125-7.445.034-.192.312-.181.343.014l.985 6.238 5.394 1.011z"/>
+	      </svg>
+				  </div>
+	<div class="header__calendar-hour">
+	  <h3>Робочі дні</h3><h4>Пн-Сб: 9.00-18.00</h4>
+	       </div>
+	<div class="header__location">
+	  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm12 14h-24l4-8h3.135c.385.641.798 1.309 1.232 2h-3.131l-2 4h17.527l-2-4h-3.131c.435-.691.848-1.359 1.232-2h3.136l4 8z"/>
+	  </svg>
+			</div>
+	  <div class="header__location-adress"><h3>Адреса</h3><h4>Київ та область</h4>
+     </div>
+     	</div>
+				</div>
+      <!--менюшка -->
+	 <div class="header_bot">
+	 <div class="head_bot__order">
+     <button><a href="order.html"> Заявка на ремонт </a></button>
+	 <div class="menu_list">
+	    <ul id="menu">
+	      <li><a href="renovation.html">Ремонт</a></li>
+	      <li><a href="price.html">Ціни</a></li>
+	      <li><a href="new.html">Ексклюзив</a></li>
+	      <li><a href="article">Статті</a></li>
+	    </ul>
+</div>
+	</div>
+		</div>
+<!-- Слайдер-->
+<div id="featured">
+			<img src="slider/01.jpg" alt="Камін" />
+			<img src="slider/02.jpg" alt="Кухня" rel="ezioCaption" />
+			<img src="slider/04.jpg" alt="Квартира-студіо" />
+			<img src="slider/06.jpg"  alt="Кухня з патіною" rel="marcusCaption" />
+		</div>
+		<span class="orbit-caption" id="ezioCaption"><strong>Кухня та барна стійка з лампами дісона</strong></span>
+		<span class="orbit-caption" id="marcusCaption"><strong>Класична кухня-студіо</strong></span>
+
+<!-- Scripts -->
+
+<!--icons start-->
+<div id="icons">
+	<div class="block_icons_descriptions">
+		<div class="block_1_image">
+		<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24"><path fill="#FFA54F" d="M11.25 9.541l-2.25-2.182.929-.929 1.321 1.253 2.821-2.892.929.93-3.75 3.82zm7.676-3.819c-.482 1.41-.484 1.139 0 2.555.05.147.074.297.074.445 0 .449-.222.883-.615 1.156-1.256.87-1.09.651-1.562 2.067-.198.591-.77.99-1.415.99h-.003c-1.549-.005-1.28-.088-2.528.789-.262.184-.569.276-.877.276s-.615-.092-.876-.275c-1.249-.878-.98-.794-2.528-.789h-.004c-.645 0-1.216-.399-1.413-.99-.473-1.417-.311-1.198-1.562-2.067-.395-.274-.617-.708-.617-1.157 0-.148.024-.298.074-.444.483-1.411.484-1.139 0-2.555-.05-.147-.074-.297-.074-.445 0-.45.222-.883.616-1.157 1.251-.868 1.089-.648 1.562-2.067.197-.591.769-.99 1.413-.99h.004c1.545.005 1.271.095 2.528-.79.262-.183.569-.274.877-.274s.615.091.876.274c1.248.878.98.795 2.528.79h.003c.646 0 1.217.399 1.415.99.473 1.416.307 1.197 1.562 2.067.394.273.616.707.616 1.156 0 .148-.024.299-.074.445zm-2.176 1.278c0-2.623-2.127-4.75-4.75-4.75s-4.75 2.127-4.75 4.75 2.127 4.75 4.75 4.75 4.75-2.128 4.75-4.75zm-2.75 8v4.974l-1.945-1.474-2.055 1.525v-5.025h-2v9l4.042-3 3.958 3v-9h-2z"/></svg>
+		</div>
+<div class="block_1">
+		<div class="block_1__standarts"> <h2>Стандарт якості</h2>
+			<div class="block_1__standarts--text"><p>Високі стандарти забезпечуються відповідно до ДБН а також вимог замовника</p>
+</div>
+	</div>
+		</div>
+	<div class="block_2_image">
+	<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24"><path fill="#FFA54F" d="M20 7.093v-5.093h-3v2.093l3 3zm4 5.907l-12-12-12 12h3v10h7v-5h4v5h7v-10h3zm-5 8h-3v-5h-8v5h-3v-10.26l7-6.912 7 6.99v10.182z"/></svg>
+	</div>
+<div class="block_2">
+			<div class="block_2__renovations"> <h2>Ремонт Вашого дому</h2>
+				<div class="block_2__renovations--text"> <p>Ремонт квартир та будинків здійснюється по проекту чи вимог замовника які попередньо бговорюються перед початком робіт </p>
+				</div>
+			</div>
+		</div>
+		<div class="block_3_image">
+		<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24"><path fill="#FFA54F" d="M20 2v20h-16v-20h16zm2-2h-20v24h20v-24zm-13 21h-4v-3h4v3zm0-4h-4v-3h4v3zm0-4h-4v-3h4v3zm5 8h-4v-3h4v3zm0-4h-4v-3h4v3zm0-4h-4v-3h4v3zm5 8h-4v-7h4v7zm0-8h-4v-3h4v3zm0-10h-14v5h14v-5z"/></svg>
+		</div>
+<div class="block_3">
+				<div class="block_3__consultation"> <h2>Кошторис ремонту</h2>
+					<div class="block_3__consultation--text"> <p>Професійна безкоштовна консультація, складення орієнтовного попереднього кошторису на роботи та матеріали</p>
+					</div>
+				</div>
+			</div>
+			<div class="block_4_image">
+			<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 24 24"><path fill="#FFA54F" d="M0 15.562l1.932-7.562 3.526.891-1.974 7.562-3.484-.891zm18.415.902c.125.287.187.598.155.91-.079.829-.698 1.448-1.457 1.602-.254.533-.733.887-1.285 1.002-.244.512-.722.89-1.296 1.01-.325.668-.97 1.012-1.674 1.012-.516 0-1.004-.183-1.356-.538-.928.404-1.902-.048-2.232-.863-.596-.068-1.107-.452-1.332-.997-.599-.071-1.114-.458-1.34-1.003-1.188-.138-1.848-1.44-1.198-2.495-.233-.058-.494-.104-.751-.152l.383-1.464c.524.1 1.01.219 1.453.358.913-.655 2.151-.295 2.549.679.608.069 1.116.464 1.334 1 .598.068 1.111.451 1.335.998.738.082 1.36.653 1.449 1.434l.002.225.45.402c.252.291.68.324.96.106.286-.223.324-.624.075-.909l-1.457-1.279c-.157-.139.052-.38.213-.241l1.491 1.308c.257.294.692.332.969.114.285-.22.316-.631.068-.916l-1.896-1.628c-.162-.135.048-.38.208-.242l1.944 1.669c.248.282.678.335.967.114.283-.22.349-.606-.002-.995-1.24-1.112-2.671-2.405-4.143-3.796-.355.488-2.176 1.502-3.279 1.502s-1.779-.675-1.96-1.343c-.157-.582.051-1.139.531-1.419.535-.313 1.055-.762 1.562-1.269-.789-.586-1.203-.398-2.067.013-.503.238-1.1.521-1.854.647l.438-1.67c1.327-.488 2.549-1.608 4.505-.083l.491-.552c.395-.447.911-.715 1.503-.715.436 0 .91.161 1.408.417 1.518.793 2.293 1.256 3.443 1.294l.394 1.508h-.008c-1.797.033-2.676-.508-4.516-1.47-.513-.263-.859-.318-1.1-.044-.984 1.12-2.031 2.309-3.192 3.063.573.458 2.019-.458 2.592-.92.25-.201.638-.468 1.128-.468.553 0 .955.331 1.244.619.68.68 2.57 2.389 3.407 3.142.434-.242.868-.435 1.311-.605l.383 1.467c-.319.134-.633.286-.95.461zm-11.037.875l.609-.747c.25-.3.215-.722-.08-.944-.296-.223-.737-.158-.986.14l-.61.749c-.251.298-.214.721.08.942s.737.159.987-.14zm1.328 1.006l.617-.755c.248-.297.213-.722-.082-.943-.294-.221-.734-.159-.984.142l-.616.754c-.251.3-.21.712.086.936.297.222.729.167.979-.134zm1.343.992l.608-.747c.251-.299.215-.721-.08-.944-.296-.222-.735-.157-.986.142l-.609.745c-.251.3-.213.724.082.945.293.221.734.16.985-.141zm1.865-.691c-.294-.224-.735-.159-.987.139l-.612.751c-.249.299-.213.722.082.943.295.221.735.16.986-.142l.61-.75c.253-.297.217-.72-.079-.941zm1.427 1.134l-.24-.212c-.063.239-.173.464-.332.65l-.358.441c.133.106.288.176.448.176.149 0 .295-.046.415-.138.284-.223.317-.632.067-.917zm5.201-10.889l1.974 7.562 3.484-.891-1.932-7.562-3.526.891zm-7.959-6.891l-.986.174.521 2.954.984-.174-.519-2.954zm3.82.174l-.985-.174-.521 2.954.985.174.521-2.954zm3.597 1.228l-.867-.5-1.5 2.598.867.5 1.5-2.598zm-11.133-.5l-.867.5 1.5 2.598.867-.5-1.5-2.598z"/></svg>
+			</div>
+<div class="block_4">
+					<div class="blok_4__work"> <h2>Договір співпраці</h2>
+						<div class="block_4__work--text"> <p>Усний договір базується на взаємній довірі сторін, письовий надає додаткові гарантії та дисциплінує сторони процесу</p>
+
+ </div>
+	</div>
+	 </div>
+		</div>
+			</div>
+<div id="block_dark">
+	<div class="block_design">
+	<div class="block_design__image">
+</div>
+	<div class="block_design__image-name"><h1>Дизайн інтерєру</h1>
+</div>
+	<div class="block_design__image-name--description"> <p>На допомогу по реалізації гармонійного дизайну прийдуть спеціалісти дизайнери</p>
+</div>
+	</div>
+<div class="block_renovation">
+	<div class="block_renovation__image">
+		</div>
+<div class="block_renovation__image-name"><h1>Проведення ремонту</h1>
+	</div>
+<div class="block_renovation__image-name--description"><p>Організація проведення ремонту, підбір виконавців та взаємодія із вузькопрофільними спеціалістами</p>
+ </div>
+	</div>
+<div class="block_consultation">
+	<div class="block_consultation__image">
+	</div>
+		<div class="block_consultation__image-name"><h1>Консультації та кошторис</h1>
+			</div>
+				<div class="block_consultation__image-name--description">
+					<p>Проведення консультацій з приводу матеріалів, виконавців та послідовності проведення ремонту.
+		 			Розробка базового кошторису ремонтних робіт відповідно до специфіки проекту та вимог замовника </p>
+						</div>
+							</div>
+								</div>
+<div id="white_block_recent_projekts">
+	<div class="name_text"> Нещодавні проекти
+		<div class="border_line">
+			</div>
+				</div>
+<div class="name_text__descriptions">
+		Цікаві рішення та організація життєвого простору в різних стилях та комбінаціях
+		</div>
+				</div>
+<div class="menu_projekts">
+	<div class="orange_block_menu">
+		<ul id="nav_list">
+			<li class="nav_list_li"><a href="#">Усі категорії</a></li>
+			<li class="nav_list_li"><a href="#">1к квартири</a></li>
+			<li class="nav_list_li"><a href="#">2к квартири</a></li>
+			<li class="nav_list_li"><a href="#">3к квартири</a></li>
+			<li class="nav_list_li"><a href="#">Будинки</a></li>
+	</ul>
+		</div>
+			</div>
+<div class="photo_galery">
+	<div class="gallery">
+<a rel="gallery" class="photo" href="gallery_img/big/01.jpg" title="Гостинна кімната з каміном"><img src="gallery_img/small/01.jpg" width="250" height="141" alt="Гостинна кімната з каміном" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/02.jpg" title="Кухня із барною стійкою та лампами дісона"><img src="gallery_img/small/02.jpg" width="250" height="141" alt="Кухня із барною стійкою та лампами дісона" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/03.jpg" title="Світильники встановлені на направляючій, яка дозволяє їх переміщати та повертати овічюючи там де потрібно"><img src="gallery_img/small/03.jpg" width="250" height="141" alt="Розумні світильники" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/04.jpg" title="Кухня-гостинна"><img src="gallery_img/small/04.jpg" width="250" height="141" alt="Кухня-гостинна" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/05.jpg" title="Шкаф-купе у спальній кімнаті"><img src="gallery_img/small/05.jpg" width="250" height="141" alt="Шкаф-купе у спальній" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/06.jpg" title="Невеличка та красива кухня. Невеликий бойлер захований у шкафу"><img src="gallery_img/small/06.jpg" width="250" height="141" alt="Невеличка та красива кухня" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/06.jpg" title="Невеличка та красива кухня. Невеликий бойлер захований у шкафу"><img src="gallery_img/small/06.jpg" width="250" height="141" alt="Невеличка та красива кухня" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/05.jpg" title="Шкаф-купе у спальній кімнаті"><img src="gallery_img/small/05.jpg" width="250" height="141" alt="Шкаф-купе у спальній" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/06.jpg" title="Невеличка та красива кухня. Невеликий бойлер захований у шкафу"><img src="gallery_img/small/06.jpg" width="250" height="141" alt="Невеличка та красива кухня" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/05.jpg" title="Шкаф-купе у спальній кімнаті"><img src="gallery_img/small/05.jpg" width="250" height="141" alt="Шкаф-купе у спальній" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/06.jpg" title="Невеличка та красива кухня. Невеликий бойлер захований у шкафу"><img src="gallery_img/small/06.jpg" width="250" height="141" alt="Невеличка та красива кухня" /></a>
+<a rel="gallery" class="photo" href="gallery_img/big/06.jpg" title="Невеличка та красива кухня. Невеликий бойлер захований у шкафу"><img src="gallery_img/small/06.jpg" width="250" height="141" alt="Невеличка та красива кухня" /></a>
+	</div>
+<div id="form_and_customers_revievs">
+	<div class="form">
+			<div class="form__title"> Заявка на ремонт
+				</div>
+					<div class="form__descriptions"><p>Вкажіть контактні дані та виберіть вид запиту і ми з Вами обовязково зв'яжемось</p>
+						</div>
+							<div class="form_customers">
+								<form action="#" method="post">
+									<input type="text" name="name" value=""
+	 										placeholder="name" size="10px">
+									<input type="text" name="email" value=""
+ 											placeholder="e-mail" size="10px"><br><br>
+									<select name="select">
+  <option value="value1"selected>Ремонт</option>
+  <option value="value2">Дизайн ітер'єру</option>
+  <option value="value3">Базовий кошторис робіт та матеріалів</option>
+</select>
+<br><br>
+	<textarea rows="10" cols="45" name="description" placeholder="Додаткова інформація"></textarea><br><br>
+	<button>Надіслати</button>
+	</form>
+		</div>
+			</div>
+
+
+<div class="reviews"><h2>Відгуки замовників</h2>
+	<div class="revievs__customers"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="24px" height="24px">
+<g>
+<g id="right_x5F_quote_x5F_alt">
+	<g>
+		<polygon points="0,4 0,28 12,16 12,4    " fill="#FFDA44"/>
+		<polygon points="20,4 20,28 32,16 32,4    " fill="#FFDA44"/>
+	</g></svg>
+<div class="revies_customers__title">
+<span style="font-family: sans; font-size: 15pt; font-weight: 600; line-height: 25px; color: #535353;">
+		Наші мрії втілені в життя</span>
+</div>
+
+<div class="revievs__customers__descriptions">
+ <p>Оскільки бюджет на проведення ремонту був обмежений, підбір виконавців проводили прискіпливо. Колективом був розроблений орієнтовний кошторис із фіксованими цінами на роботу. Був закуплений матеріал із гарними знижками, що дозволило зекономити нам кошти. Це дивовижно, команда швидко та якісно втілили усі наші мрії в життя!
+		Усім рекомендую даних спеціалістів. Команда працювала злагоджено та виконала ремонт у призначений термін!
+</p>
+				</div>
+<div class="revies_footer">
+			<div class="revies_image">
+					</div>
+				<div class="revies_image__author">
+					<span  style="font-family: sans-serif; font-size: 11pt; font-weight: 700; color: #535353;">Оксана</span>
+					<span style="font-family: sans-serif; font-size: 10pt; font-weight: 400; color: #969696;">- юрист</span>
+						</div>
+							</div>
+								</div>
+<div class="revievs__customers"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="24px" height="24px">
+					<g>
+					<g id="right_x5F_quote_x5F_alt">
+						<g>
+							<polygon points="0,4 0,28 12,16 12,4    " fill="#FFDA44"/>
+							<polygon points="20,4 20,28 32,16 32,4    " fill="#FFDA44"/>
+						</g></svg>
+		<div class="revies_customers__title">
+					<span style="font-family: sans; font-size: 15pt; font-weight: 600; line-height: 25px; color: #535353;">
+						Ремонт без турбот!</span>
+					</div>
+
+		<div class="revievs__customers__descriptions">
+					 <p>Оскільки в мене обмаль часу доручив проведення ремонту спеціалістам і не помилився!
+						 	Команда зробила все якісно і в стислі терміни. Відтепер буду рекомендувати тільки їх усім моїм друзям та знайомим</p>
+									</div>
+		<div class="revies_footer">
+								<div class="revies_image">
+									</div>
+								<div class="revies_image__author">
+									<span  style="font-family: sans-serif; font-size: 11pt; font-weight: 700; color: #535353;">Олександр</span>
+									<span style="font-family: sans-serif; font-size: 10pt; font-weight: 400; color: #969696;">- бізнесмен</span>
+									</div>
+										</div>
+											</div>
+												</div>
+													</div>
+<div id="news">
+	<div class="news_title"><h2>Публікації</h2>
+		</div>
+	<div class="news_block">
+		</div>
+			</div>
+<div id="bottom">
+	<div class="bottom_title">
+		</div>
+	<div class="buttom_menu">
+	<div class="buttom_block1">
+		<div class="blok1__logo"> <img src="http://construction-pro.cmsmasters.net/wp-content/uploads/2016/02/logo-footer.png" alt="logo" width="275" height="40">
+			</div>
+		<div class="block1__logo--description">
+			<p>Наша команда більш ніж 10 років працює на будівельному ринку м.Києва та області.
+			Багаторічний досвід роботи сформував надійний та досвідчений колектив, який професійно виконує свою роботу у
+		  відповідності з проектом та вимог замовників. Технологія проведення робіт та матеріали, які використовуються відповідають сучаним світовим тенденціям у
+			галузі житлового будівництва.</p>
+			<div class="footer_social_icons">
+				<a><svg xmlns="http://www.w3.org/2000/svg" width="34" height="26" viewBox="3 0 24 24" fill="#1C1C1C">
+				<path d="M0 0v24h24v-24h-24zm16 7h-1.923c-.616 0-1.077.252-1.077.889v1.111h3l-.239 3h-2.761v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/></svg></a>
+				<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="#1C1C1C">
+				<path d="M13.888 14.154c-.288 0-.535.184-.717.405v-1.893h-.814v5.88h.814v-.333c.225.28.471.388.766.388.537 0 .737-.417.737-.954v-2.406c0-.588-.195-1.087-.786-1.087zm-.044 3.376c0 .138-.023.238-.07.299-.089.116-.281.111-.413.045l-.191-.153v-2.703l.167-.132c.141-.071.323-.058.421.071.058.076.086.187.086.333v2.24zm-2.716-8.53v-2.119c0-.25.115-.434.353-.434.26 0 .371.179.371.434v2.119c0 .248-.126.431-.354.431-.235 0-.37-.191-.37-.431zm-1.849 4.52h-.94v5.027h-.908v-5.027h-.94v-.854h2.788v.854zm1.484.688h.807v4.338h-.807v-.479c-.148.176-.303.311-.464.403-.435.249-1.031.244-1.031-.636v-3.626h.806v3.325c0 .175.042.292.215.292.157 0 .376-.202.474-.325v-3.292zm-10.763-14.208v24h24v-24h-24zm13.434 5.62h.847v3.491c0 .184.044.307.226.307.165 0 .395-.212.498-.341v-3.457h.847v4.555h-.847v-.504c-.367.436-.723.569-.979.569-.454 0-.591-.364-.591-.813v-3.807zm-1.937-.038c.687 0 1.217.511 1.217 1.224v2.233c0 .765-.536 1.22-1.217 1.22-.821 0-1.241-.417-1.241-1.22v-2.233c0-.731.495-1.224 1.241-1.224zm-3.435-1.582l.658 2.468.611-2.468h.969l-1.11 3.67v2.504h-.954v-2.504l-1.134-3.67h.96zm8.493 15.912c-1.735.118-7.377.118-9.11 0-1.878-.128-2.097-1.267-2.111-4.245.014-2.983.235-4.116 2.111-4.245 1.733-.118 7.375-.118 9.11 0 1.878.128 2.097 1.267 2.111 4.245-.014 2.983-.235 4.116-2.111 4.245zm-.047-5.813c-.728 0-1.225.522-1.225 1.275v1.947c0 .781.394 1.342 1.164 1.342.85 0 1.208-.506 1.208-1.342v-.326h-.83v.301c0 .378-.02.607-.36.607-.325 0-.352-.282-.352-.607v-.818h1.542v-1.104c0-.783-.373-1.275-1.147-1.275zm.317 1.707h-.712v-.439c0-.298.062-.508.36-.508.29 0 .352.215.352.508v.439z"/></svg>
+			</div>
+					</div>
+						</div>
+<div class="buttom_block2">
+	<div class="blok2__services"><h1>Наші послуги</h1>
+		</div>
+	<div class="block2__services--list">
+		<ul>
+			 <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#FFA500" viewBox="0 0 24 24">
+				 	 <path d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z"/></svg>
+					 <a href="#">Дизайн інтер'єру</a></li>
+			 <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#FFA500" viewBox="0 0 24 24">
+ 				 	 <path d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z"/></svg>
+					 <a href="#">Організація ремонту</a></li>
+			 <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#FFA500" viewBox="0 0 24 24">
+				 	 <path d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z"/></svg>
+					 <a href="#">Демонтажні роботи</a></li>
+			 <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#FFA500" viewBox="0 0 24 24">
+				 	 <path d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z"/></svg>
+					 <a href="#">Комплексний ремонт</a></li>
+			 <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#FFA500" viewBox="0 0 24 24">
+				 	 <path d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z"/></svg>
+					 <a href="#">Консультації</a></li>
+			 <li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#FFA500" viewBox="0 0 24 24">
+				 	 <path d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z"/></svg>
+				   <a href="#">Кошторис робіт</a></li>
+							</ul>
+								</div>
+									</div>
+	<div class="buttom_block3">
+		<div class="blok3__services"><h1>Додаткова інформація</h1>
+						</div>
+			<div class="block3__services--list">
+				<ul>
+						<li><a href="#">Про компанію</a></li>
+						<li><a href="#">Архів проектів</a></li>
+						<li><a href="#">Поточні проекти</a></li>
+						<li><a href="#">Історія компанії</a></li>
+						<li><a href="#">Наша команда</a></li>
+						<li><a href="#">Наші партнери</a></li>
+						</ul>
+							</div>
+								</div>
+	<div class="buttom_block4">
+		<div class="buttom_block_4__services"><h1>Контакти</h1>
+			</div>
+		<div class="buttom_block4__services--list">
+			<ul>
+				<li> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#FFA500">
+					<path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+					<a href="#">vavankutep@ukr.net</a></li>
+				<li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#FFA500">
+						<path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
+					  <a>0938499576</a></li>
+				<li> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#FFA500">
+					   <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.848 12.459c.202.038.202.333.001.372-1.907.361-6.045 1.111-6.547 1.111-.719 0-1.301-.582-1.301-1.301 0-.512.77-5.447 1.125-7.445.034-.192.312-.181.343.014l.985 6.238 5.394 1.011z"/>
+ 	           </svg>
+					   <a>Пн - Сб: 9.00-18.00</a></li>
+				<li> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#FFA500">
+						 <path d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm12 14h-24l4-8h3.135c.385.641.798 1.309 1.232 2h-3.131l-2 4h17.527l-2-4h-3.131c.435-.691.848-1.359 1.232-2h3.136l4 8z"/>
+		 	       </svg>
+					   <a>Київ та область</a></li>
+			 </ul>
+		 </div>
+	 </div>
+ </div>
+</div>
+	<div class="footer">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
